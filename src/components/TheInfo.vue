@@ -22,9 +22,9 @@ const personalInformation = [{
     <div class="rd-2 bg-[#212121] py4">
       <div
         v-for="(item, index) in personalInformation" :key="index"
-        class="relative flex items-center border-b-1 border-gray-2 border-b-solid py4 text-base dark:border-[#373738]"
+        class="relative flex items-center border-b-1 border-b-solid py4 text-base dark:border-[#262626FF]"
       >
-        <p mr5>
+        <p mr5 w-100px>
           {{ item.label }}
         </p>
         <p font-normal op50>
@@ -34,3 +34,9 @@ const personalInformation = [{
     </div>
   </div>
 </template>
+
+<style>
+a {
+  background: #262626;
+}
+</style>
