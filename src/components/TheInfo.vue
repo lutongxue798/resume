@@ -8,7 +8,7 @@ const personalInformation = [{
   value: 'vat_xl',
 }, {
   // icon: 'i-carbon:email',
-  label: 'E-mail',
+  label: 'Mail',
   value: 'luwenruishiwo@163.com',
 }, {
   // icon: 'i-carbon:location',

@@ -5,15 +5,17 @@ defineOptions({
 
 const tabs = [
   {
+
+    icon: 'i-carbon:align-box-middle-left',
     name: 'Personal Information',
   },
   {
-    icon: 'skill',
+    icon: 'i-carbon:favorite',
     name: 'Technical Stack',
   },
 
   {
-    icon: 'project',
+    icon: 'i-carbon:ibm-cloud-projects',
     name: 'Project Overview',
   },
 ]
@@ -28,19 +30,19 @@ const tabActive = ref(0)
       <span mt4>I'm Lu. </span>
     </h1>
     <div mt10>
-      <p>Front-end developer</p>
+      <p> ·  Front-end developer</p>
       <p mt2>
-        Currently working at BoMing.
+        ·  Currently working at BoMing
       </p>
     </div>
 
-    <div grid cols-4 my6 gap-4>
+    <div my6 flex flex-wrap items-center gap-4>
       <button
         v-for="(tab, index) in tabs" :key="index"
         class="rd-1 p-2 text-sm icon-btn dark:bg-[#373738] md:text-base"
-        @click="tabActive = index"
+        w-fit flex items-center @click="tabActive = index"
       >
-        <p :class="tab.icon" mr3 />
+        <p :class="tab.icon" mr2 h-6 w-6 />
         <p>{{ tab.name }}</p>
       </button>
     </div>
@@ -56,7 +58,3 @@ const tabActive = ref(0)
     </Transition>
   </div>
 </template>
-
-<style>
-
-</style>
