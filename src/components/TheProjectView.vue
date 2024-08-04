@@ -8,9 +8,20 @@ import boming from '~/static/boming.png'
 
 const project = [
   {
+    projeceName: '博明小管家',
+    previewImg: boming,
+    projectDesc: '面向社会用户的第三方官方售药平台',
+  },
+  {
     projeceName: '极星Polestar',
     previewImg: jixing,
     projectDesc: '沃尔沃汽车集团和浙江吉利控股集团共同拥有的全球高性能电动汽车品牌,提供汽车在线查询选购。',
+  },
+  {
+    projeceName: '保利威律师官网',
+    link: 'http://www.polywelllaw.cn/',
+    previewImg: baoliwei,
+    projectDesc: '保利威律师致力于为客户提供专业律师服务。',
   },
 
   {
@@ -27,22 +38,12 @@ const project = [
   },
 
   {
-    projeceName: '保利威律师官网',
-    link: 'http://www.polywelllaw.cn/',
-    previewImg: baoliwei,
-    projectDesc: '保利威律师致力于为客户提供专业律师服务。',
-  },
-  {
     projeceName: '正和岛',
     link: 'http://mp.zhisland.com/router/conference/',
     previewImg: zhenghedao,
     projectDesc: '正和岛企业家签到，活动流程展示平台。',
   },
-  {
-    projeceName: '博明小管家',
-    previewImg: boming,
-    projectDesc: '面向社会用户的第三方官方售药平台',
-  },
+
 ]
 </script>
 
