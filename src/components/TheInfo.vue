@@ -34,9 +34,3 @@ const personalInformation = [{
     </div>
   </div>
 </template>
-
-<style>
-a {
-  background: #262626;
-}
-</style>
