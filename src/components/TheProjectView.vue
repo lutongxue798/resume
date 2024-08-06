@@ -7,11 +7,11 @@ import waiguoyu from '~/static/waiguoyu.png'
 import boming from '~/static/boming.png'
 
 const project = [
-  {
-    projeceName: '博明小管家',
-    previewImg: boming,
-    projectDesc: '面向社会用户的第三方官方售药平台',
-  },
+  // {
+  //   projeceName: '博明小管家',
+  //   previewImg: boming,
+  //   projectDesc: '面向社会用户的第三方官方售药平台',
+  // },
   {
     projeceName: '极星Polestar',
     previewImg: jixing,
